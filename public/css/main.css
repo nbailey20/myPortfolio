@@ -49,6 +49,7 @@
 	font-family: Helvetica;
 	padding: 25px 0px 50px 0px;
 	margin: 0% 25% 0% 25%;
+	min-width: 650px;
 }
 .profile-border {
 	border-radius: 35%;
@@ -83,6 +84,7 @@
 	background-color: white;
 	margin-left: 25%;
 	margin-right: 25%;
+	min-width: 650px;
 }
 .portfolio-title {
 	color: #A9A9A9;
@@ -114,10 +116,9 @@
 	height: 200px;
 	margin-top: auto;
 	margin-bottom: 30px;
+	overflow: hidden;
 }
-#pic4 {
-	margin-top: 75px;
-}
+
 .contact-title {
 	color: white;
 	font-family: Helvetica;
@@ -155,39 +156,16 @@
 	margin-top: 8%;
 }
 .double-icon {
-	margin-top: 15%;
+	margin-top: 20%;
 	margin-bottom: 4%;
 }
 .fa-github:hover {
 	color: maroon;
+	text-decoration: none;
 }
 .fa-linkedin:hover {
 	color: maroon;
-}
-.fa-facebook:hover {
-	color: maroon;
-}
-
-.footer-background {
-	background-image: url("http://i1064.photobucket.com/albums/u373/bartowski20/natureWater_zpsel8lzotz.jpg");
-	background-size: 100%;
-	padding-bottom: 20%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.footer-created {
-	margin-left: 25%;
-	color: maroon;
-	font-size: 40px;
-	margin-top: 4%;
-	font-family: Akronim, Helvetica;
-}
-.footer-name {
-	margin-left: 25%;
-	color: maroon;
-	font-size: 30px;
-	margin-top: 20px;
-	font-family: 'Indie Flower', cursive;
+	text-decoration: none;
 }
 
 
