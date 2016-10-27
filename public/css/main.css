@@ -19,6 +19,7 @@
 	height: 50px;
 	z-index: 1;
 	margin: 0px 0px 0px 0px;
+	min-width: 850px;
 }
 
 #header-cube {
